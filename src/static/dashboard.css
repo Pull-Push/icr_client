@@ -1,0 +1,20 @@
+.dashMainDiv{
+    border: 1px solid green;
+}
+
+.dashSubDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid red;
+}
+
+.incidentDiv{
+    width: 45%;
+    border: 2px solid blue;
+}
+
+.mapDiv{
+    width: 45%;
+    border: 2px dashed blue;
+}
