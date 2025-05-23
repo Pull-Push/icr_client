@@ -4,12 +4,14 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import LoginMain from './components/login';
+import DashboardMain from './components/dashboard';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<LoginMain />} />
+      <Route path='/dashboard' element={<DashboardMain />} />
     </Routes>
   </BrowserRouter>
 );
